@@ -97,3 +97,10 @@ except KeyboardInterrupt:
 #Fingerprint
 pip3 install pyfingerprint
 sudo python test.py
+
+1: VCC Red Connect it to USB- TTL(5V) : VCC
+2: GND Black Connect it to USB-TTL:GND
+
+3: Tx Yellow Connect it to USB-TTL:Rx
+
+4: Rx White Connect it to USB-TTL:Tx
