@@ -101,6 +101,29 @@ sudo python test.py
 1: VCC Red Connect it to USB- TTL(5V) : VCC
 2: GND Black Connect it to USB-TTL:GND
 
+If this is on your Raspberry Pi fingerprint-sensor practical, the error can come from either the pyfingerprint installation or from the sensor/serial connection.
+
+Please run these commands one at a time and send me the exact output if one gives an error:
+
+pip3 install pyfingerprint --break-system-packages
+
+Then check whether it installed:
+
+pip3 show pyfingerprint
+
+Then run:
+
+sudo python3 test.py
+Important
+
+You wrote:
+
+sudo python test.py
+
+On newer Raspberry Pi OS versions, use:
+
+sudo python3 test.py
+
 3: Tx Yellow Connect it to USB-TTL:Rx
 
 4: Rx White Connect it to USB-TTL:Tx
