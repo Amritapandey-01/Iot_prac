@@ -1,3 +1,11 @@
+# led pract  6 9 14 20 --gnd
+# finger .py #vcc -red, gnd-black, tx- yellow,rx-white
+# home controller #GND - 6, VCC - 2, IN1 - 26, IN2 - 24, IN3 - 21
+# 7 segment #gnd -14, vcc - 4, D10 - 18, clk-16
+#oscilloscope #vdd - pin 1 #gnd - pin 2 #sda - pin 3 #scl - pin 5
+# RFID #6 -gnd  #2-vcc, 3 sda, 4- scl
+#cannel 1-on, channel 2 -off
+
 #Teleram Pract
 sudo apt-get install python-pip
 #1) Installing the venv module:-
